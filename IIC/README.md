@@ -150,7 +150,8 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress,
    第7个参数为操作超时时间 　　*/
    HAL_I2C_Mem_Read(&hi2c2, 0xA1, 0, I2C_MEMADD_SIZE_8BIT,ReadBuffer,256, 0xff);
 ```
-
+效果
+![ls](image/IIC8.png)
 
 >参考 https://bbs.21ic.com/icview-1128774-1-1.html
 
