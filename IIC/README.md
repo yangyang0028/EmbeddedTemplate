@@ -125,6 +125,11 @@ I2C总线上传送的数据信号是广义的，既包括地址信号，又包�
 
 ### STM32下配置IIC (AT24C02 IIC 通信)
 
+硬件连接
+
+注意：**一定要接上拉电阻！！！**
+
+![ls](image/IIC9.png)
 
 ```
 HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
