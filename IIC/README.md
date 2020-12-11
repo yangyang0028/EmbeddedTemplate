@@ -1,4 +1,4 @@
-# IIC
+README.mdREADME.md# IIC
 
 术语|描述
 :--:|:--:
@@ -30,7 +30,7 @@ IIC是真正的多主机总线，（**而这个SPI在每次通信前都需要把
 片上的滤波器可以滤去总线数据线上的毛刺波保证数据完整。
 
 
-![ls](IIC1.png)
+![ls](image/IIC1.png)
 
 ### IIC总线线路的走线方式
 ```
@@ -152,6 +152,9 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress,
 
 
 >参考 https://bbs.21ic.com/icview-1128774-1-1.html
+
 >参考 https://blog.csdn.net/zhanghuaichao/article/details/48266309
+
 >参考 https://www.cnblogs.com/-wenli/p/10907967.html
+
 >参考 https://blog.csdn.net/as480133937/article/details/105259075
