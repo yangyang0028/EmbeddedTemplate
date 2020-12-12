@@ -1,4 +1,4 @@
-#SPI
+# SPI
 ![ls](image/SPI1.png)
 
 SPI是一种高速的 全双工 同步的通信总线 数据传输速率快
@@ -14,7 +14,7 @@ SDI/MISO：在 Master(主)上面也被称为 Rx-Channel，作为数据的入口�
 
 ```
 
-SPI 通信有四种模式 由CPOL和CPHA决定
+## SPI 通信有四种模式 由CPOL和CPHA决定
 
 CPOL： Clock Polarity，就是时钟的极性。通信的整个过程分为空闲时刻和通信时刻，如果 SCLK 在数据发送之前和之后的空闲状态是高电平，那么就是CPOL=1，如果空闲状态 SCLK 是低电平，那么就是 CPOL=0。
 
